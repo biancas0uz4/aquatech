@@ -46,48 +46,47 @@ body{
     font-size: 32px;
     width: 200px;
 }
-
-/*SOCIAL*/
-
-.social{
-    background-color: #f7f7f7;
-    height: 500px;
-
-}
-
-.social .container{
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.social .container .box{
+.label{
     display: flex;
-    flex-direction: column;
+    color: rgb(228, 59, 87);
+    background-color: rgb(202, 201, 201);
+    height: 430px;
+    width: 385px;
+    border-radius: 5px;
     align-items: center;
+    
+   
+}
+.divtexto{
+    margin-left: 85px;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    border-radius: 8px;
+    background-color: white;
+    border-color: #32b9cd;
+    height: 30px;
+    width: 200px;
+    display: flex;
+}
+
+.inputs::placeholder{
     text-align: center;
+}
+
+.botao{
+    border-radius: 5px;
+    background-color:rgb(245, 42, 75) ;
+    height: 30px;
+    width: 75px;
+    border-color: rgb(245, 42, 75);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 155px;
     
 }
-
-.social .container .box img{
-    width: 100px;
-}
-
-.social .container .box p{
-    width: 400px;
-}
-
-.footer{
-    background-color: #32b9cd;
-    color: white;
-}
-
-.footer .container{
-    justify-content: center;
-    align-items: center;
-}
-
 .navbar a{
     color: #e3b062 ;
     text-decoration: none;
@@ -97,4 +96,5 @@ body{
     color: #32b9cd;
 
 }
+
 
